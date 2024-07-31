@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aplikasi Sederhana</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="default_web_client_id">495368179362-dhf342aq9kru0lulotkj3rtme0999b18.apps.googleusercontent.com</string>
 </resources>

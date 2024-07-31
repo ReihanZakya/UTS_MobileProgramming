@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495368179362",
+    "project_id": "mobilefirebase-dbc7b",
+    "storage_bucket": "mobilefirebase-dbc7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495368179362:android:8550267f8fe16b738011fb",
+        "android_client_info": {
+          "package_name": "com.example.aplikasisederhana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495368179362-uukbv4bjpqgt0if209u8jkbt5n6fru0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasisederhana",
+            "certificate_hash": "672b05c44c3078ddb3526f51fa925a1bb88125a9"
+          }
+        },
+        {
+          "client_id": "495368179362-dhf342aq9kru0lulotkj3rtme0999b18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdakGoBU9_KEnT37vaFk1rhs2Yu6XNtVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495368179362-dhf342aq9kru0lulotkj3rtme0999b18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

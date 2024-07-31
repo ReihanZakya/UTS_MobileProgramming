@@ -1,10 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.AplikasiSederhana" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Base.Theme.AplikasiSederhana" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimary">@color/orange</item>
     </style>
 
     <style name="Theme.AplikasiSederhana" parent="Base.Theme.AplikasiSederhana" />
+
+    <style name="Theme.AplikasiSederhana.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>

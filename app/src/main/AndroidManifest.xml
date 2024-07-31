@@ -13,14 +13,23 @@
         android:theme="@style/Theme.AplikasiSederhana"
         tools:targetApi="31">
         <activity
-            android:name=".DashboardActivity"
+            android:name=".NewsDetail"
             android:exported="false" />
+        <activity
+            android:name=".NewsAdd"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiSederhana.NoActionBar"/>
         <activity
             android:name=".RegisterActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AplikasiSederhana.NoActionBar"/>
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AplikasiSederhana.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".DashboardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

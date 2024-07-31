@@ -5,6 +5,15 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        getByName("debug") {
+            storeFile =
+                file("D:\\Ngod\\AndroidStudioProject\\UTS_MobileProgramming\\app\\aplikasiSederhana.jks")
+            storePassword = "darkslayer"
+            keyAlias = "aplikasiSederhana"
+            keyPassword = "darkslayer"
+        }
+    }
     namespace = "com.example.aplikasisederhana"
     compileSdk = 34
 
